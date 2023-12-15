@@ -1,7 +1,5 @@
 
-FROM fedora:39
-
-
+FROM fedora:40
 LABEL maintainer="labeg@mail.ru" \
       io.k8s.description="Headless VNC Container with LXQt Desktop manager" \
       io.k8s.display-name="Headless VNC Container based on Centos" \
